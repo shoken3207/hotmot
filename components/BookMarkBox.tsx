@@ -101,14 +101,15 @@ const BookMarkBox = ({
 export default BookMarkBox;
 
 const SBox = styled.div`
-  width: 90%;
-  max-width: 280px;
+  width: 100%;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
 `;
 
 const SImage = styled.div`
   width: 100%;
+  aspect-ratio: 10 / 9;
   border-radius: 10px;
   cursor: pointer;
 

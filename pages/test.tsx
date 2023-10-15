@@ -63,8 +63,7 @@ export default test;
 
 const SWrap = styled.div`
   padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  column-gap: 3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 `;

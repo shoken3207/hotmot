@@ -178,7 +178,9 @@ const ListProductBox = ({
 export default ListProductBox;
 
 const SBox = styled.div`
-  width: 240px;
+  /* width: 240px; */
+  width: 100%;
+  max-width: 330px;
   display: flex;
   flex-direction: column;
   row-gap: 0.4rem;
@@ -186,8 +188,9 @@ const SBox = styled.div`
 
 const SImage = styled.div`
   width: 100%;
+  aspect-ratio: 10 / 9;
   cursor: pointer;
-  height: 225px;
+  /* height: 225px; */
   border-radius: 10px;
   border: 1px solid #ccc;
 

@@ -43,12 +43,15 @@ const Home = () => {
 export default Home;
 
 const SContainer = styled.div`
-  padding: 4rem;
+  padding: 1.5rem;
 `;
 
 const SList = styled.div`
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 2rem;
+  row-gap: 2rem; */
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 `;

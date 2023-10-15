@@ -45,11 +45,18 @@ const SBox = styled.div`
   justify-content: space-between;
   padding: 0.4rem 0.3rem;
   border-bottom: 3px solid #ccc;
+
+  @media (max-width: 400px) {
+    flex-direction: column;
+  }
 `;
 
 const SImage = styled.div`
   width: 35%;
   cursor: pointer;
+  @media (max-width: 400px) {
+    width: 100%;
+  }
 
   > img {
     width: 100%;
@@ -62,4 +69,8 @@ const SRight = styled.div`
   display: flex;
   flex-direction: column;
   row-gap: 0.4rem;
+
+  @media (max-width: 400px) {
+    width: 100%;
+  }
 `;
